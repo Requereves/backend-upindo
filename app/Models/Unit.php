@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Type extends Model
+class Unit extends Model
 {
     use HasFactory;
 
@@ -14,7 +14,7 @@ class Type extends Model
     ];
 
     /**
-     * One to Many relationship with Product model
+     * One to many relationship with product model
      * @return void
      */
     public function products()
